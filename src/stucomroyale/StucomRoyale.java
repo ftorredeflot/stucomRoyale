@@ -5,6 +5,8 @@
  */
 package stucomroyale;
 
+import domain.*;
+
 /**
  *
  * @author ferran
