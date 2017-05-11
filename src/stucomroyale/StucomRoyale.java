@@ -19,5 +19,19 @@ public class StucomRoyale {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
+    public static void MenuPrincipal() {
+        System.out.println("******MENU*******");
+        System.out.println("1- Conseguir Cartas");
+        System.out.println("2- Batalla");
+        System.out.println("3- RANKING");
+        System.out.println("4- Salir");
+    }
+
+    public static void menubatalla() {
+        System.out.println("******STUCOM ROYALE*******");
+        System.out.println("1- Añadir carta");
+        System.out.println("2- Salir");
+    }
+
 }
