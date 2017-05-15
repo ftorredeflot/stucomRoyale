@@ -28,4 +28,9 @@ public class Tropa extends Carta{
     public int getAtaque2(){
         return (ataque/2);
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Tropa{" + "ataque=" + ataque + '}';
+    }
 }

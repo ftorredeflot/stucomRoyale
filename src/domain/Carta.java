@@ -82,8 +82,10 @@ public class Carta {
 
     @Override
     public String toString() {
-        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+        return "Carta{" + "nom=" + nom + ", coste=" + coste + ", vida=" + vida + '}';
     }
+
+ 
 
     @Override
     protected Object clone() throws CloneNotSupportedException {

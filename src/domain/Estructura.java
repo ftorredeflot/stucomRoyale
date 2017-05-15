@@ -29,4 +29,11 @@ public class Estructura extends Carta {
     public void setDefensa(int defensa) {
         this.defensa = defensa;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Estructura{" + "defensa=" + defensa + '}';
+    }
+    
+    
 }

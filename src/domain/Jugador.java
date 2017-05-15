@@ -11,19 +11,19 @@ import java.util.ArrayList;
  *
  * @author ferran
  */
-public class Player {
+public class Jugador {
     private String usu;
     private String password;
     private int trofeos;
     private ArrayList<Carta> cartas;
 
-    public Player(String usu, String password, int trofeos) {
+    public Jugador(String usu, String password, int trofeos) {
         this.usu = usu;
         this.password = password;
         this.trofeos = trofeos;
         cartas = new ArrayList<>();
     }
-    public Player(){}
+    public Jugador(){}
 
     public String getUsu() {
         return usu;
@@ -59,5 +59,10 @@ public class Player {
     
     public void agregarCarta(Carta carta){
         cartas.add(carta);
+    }
+
+    @Override
+    public String toString() {
+        return "Jugador{" + "usu=" + usu + ", password=" + password + ", trofeos=" + trofeos + ", cartas=" + cartas + '}';
     }
 }

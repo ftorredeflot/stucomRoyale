@@ -40,6 +40,11 @@ public class Hechizo extends Carta{
     public int getHechizoDefensa(){
         return (rango*(2/3));
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Hechizo{" + "rango=" + rango + ", modo=" + modo + '}';
+    }
     
     
     
